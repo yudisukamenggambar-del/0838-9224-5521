@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pratinjau Grup WhatsApp</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#dfe5e7;font-family:Arial,Helvetica,sans-serif;color:#111}
+  .phone{width:100%;max-width:430px;min-height:100vh;margin:auto;background:#efeae2;position:relative;overflow:hidden;box-shadow:0 0 24px #0002}
+  .top{height:66px;background:#075e54;color:#fff;display:flex;align-items:center;padding:0 14px;gap:12px}
+  .back{font-size:27px;font-weight:300}
+  .avatar{width:42px;height:42px;border-radius:50%;background:#d7eee7;display:grid;place-items:center;color:#087b69;font-size:22px}
+  .group{flex:1;min-width:0}
+  .group strong{display:block;font-size:16px;font-weight:600}
+  .group small{display:block;font-size:12px;opacity:.85;margin-top:3px}
+  .dots{font-size:23px;letter-spacing:2px}
+  .notice{margin:14px auto 18px;width:max-content;max-width:90%;padding:7px 12px;border-radius:8px;background:#fff3c4;color:#655b3c;font-size:11px;text-align:center;box-shadow:0 1px 1px #0001}
+  .date{text-align:center;color:#777;font-size:11px;margin:12px}
+  .bubble{background:#fff;margin:0 14px 12px;padding:10px;border-radius:0 10px 10px 10px;width:calc(100% - 68px);max-width:340px;box-shadow:0 1px 1px #0002}
+  .sender{font-size:12px;color:#16816e;font-weight:700;margin-bottom:7px}
+  .message{font-size:14px;line-height:1.4}
+  .video-card{display:block;text-decoration:none;color:#fff;margin-top:9px;border-radius:8px;overflow:hidden;background:#172b28}
+  .thumb{height:190px;position:relative;display:grid;place-items:center;background:linear-gradient(135deg,#263d39,#101c1a 55%,#526c62)}
+  .thumb:before{content:"";position:absolute;width:115px;height:115px;border:1px solid #ffffff30;border-radius:50%;box-shadow:0 0 0 22px #ffffff0b,0 0 0 44px #ffffff08}
+  .play{position:relative;width:58px;height:58px;border-radius:50%;background:#ffffffed;display:grid;place-items:center;box-shadow:0 2px 12px #0005}
+  .play:after{content:"";margin-left:5px;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:17px solid #087b69}
+  .thumb-label{position:absolute;left:10px;bottom:10px;font-size:12px;background:#0009;padding:5px 8px;border-radius:4px}
+  .video-info{background:#f7f7f7;color:#222;padding:10px 11px}
+  .video-info strong{font-size:13px;display:block}
+  .video-info small{font-size:11px;color:#666;display:block;margin-top:4px}
+  .external{font-size:11px;color:#777;padding:8px 2px 1px}
+  .time{text-align:right;color:#999;font-size:10px;margin-top:6px}
+  .footer{position:absolute;bottom:0;left:0;right:0;background:#f0f0f0;padding:11px 14px;color:#777;font-size:11px;text-align:center;border-top:1px solid #ddd}
+  @media(min-height:720px){.phone{min-height:100vh}}
+</style>
+</head>
+<body>
+<div class="phone">
+  <header class="top">
+    <span class="back">‹</span>
+    <div class="avatar">👥</div>
+    <div class="group"><strong>Video Viral Terbaru</strong><small>12 anggota · 3 sedang online</small></div>
+    <span class="dots">⋮</span>
+  </header>
+
+  <div class="notice">Tampilan simulasi bergaya WhatsApp · bukan halaman resmi WhatsApp</div>
+  <div class="date">HARI INI</div>
+
+  <section class="bubble">
+    <div class="sender">Anggota grup</div>
+    <div class="message">Ada 1 video yang dibagikan di grup. Ketuk video di bawah untuk membukanya.</div>
+
+    <a class="video-card" href="https://asiafilm.org/4/c522d284b381440de7e2a787ddf43cb8" target="_blank" rel="noopener noreferrer">
+      <div class="thumb">
+        <span class="play" aria-hidden="true"></span>
+        <span class="thumb-label">▶  1 video tersedia</span>
+      </div>
+      <div class="video-info">
+        <strong>Video yang dibagikan</strong>
+        <small>Ketuk untuk membuka video</small>
+      </div>
+    </a>
+    <div class="external">Tautan akan membuka situs eksternal: asiafilm.org</div>
+    <div class="time">13.14 ✓✓</div>
+  </section>
+
+  <div class="footer">Pratinjau desain · Video dibuka melalui tautan eksternal</div>
+</div>
+</body>
+</html>
